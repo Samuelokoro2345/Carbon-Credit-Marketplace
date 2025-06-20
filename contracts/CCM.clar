@@ -234,3 +234,4 @@
 (define-read-only (get-total-retired-credits)
     (var-get total-retired-credits)
 )
+
