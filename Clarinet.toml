@@ -14,6 +14,12 @@ epoch = 3.1
 path = 'contracts/CCM-Verification.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.CCM-Escrow]
+path = 'contracts/CCM-Escrow.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
