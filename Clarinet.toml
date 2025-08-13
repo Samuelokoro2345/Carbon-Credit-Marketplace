@@ -20,6 +20,11 @@ path = 'contracts/CCM-Escrow.clar'
 clarity_version = 3
 epoch = 3.1
 
+[contracts.CCM-Impact-Tracker]
+path = 'contracts/CCM-Impact-Tracker.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
