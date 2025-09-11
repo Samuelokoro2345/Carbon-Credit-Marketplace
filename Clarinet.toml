@@ -1,0 +1,40 @@
+[project]
+name = 'CCM'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.CCM]
+path = 'contracts/CCM.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.CCM-Verification]
+path = 'contracts/CCM-Verification.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.CCM-Escrow]
+path = 'contracts/CCM-Escrow.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.CCM-Impact-Tracker]
+path = 'contracts/CCM-Impact-Tracker.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.CCM-Fractionalization]
+path = 'contracts/CCM-Fractionalization.clar'
+clarity_version = 3
+epoch = 3.1
+
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
